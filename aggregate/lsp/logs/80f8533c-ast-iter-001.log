@@ -1,0 +1,7 @@
+[2026-04-10T15:59:40Z] === AST ITERATION 1 START | repo=jaredhanson/utils-merge sha=80f8533c ===
+[2026-04-10T15:59:40Z] [iter=1] PHASE START: ast repo=jaredhanson/utils-merge sha=80f8533c
+[2026-04-10T15:59:40Z] [iter=1] Building AST aggregate chunks
+[2026-04-10T15:59:41Z] [iter=1] AST chunks built count=1 triples=3103
+[2026-04-10T15:59:41Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/80f8533cde3039ff68efead269c41fb5f1a0e59b/.complete
+[2026-04-10T15:59:41Z] [iter=1] PHASE END: ast elapsed_s=0 elapsed_min=0.0
+[2026-04-10T15:59:41Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
