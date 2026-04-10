@@ -1,0 +1,14 @@
+[2026-04-10T16:08:45Z] === ENRICH ITERATION 1 START | repo=jaredhanson/utils-merge sha=80f8533c ===
+[2026-04-10T16:08:45Z] [iter=1] PHASE START: enrich repo=jaredhanson/utils-merge sha=80f8533c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/80f8533c-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/80f8533cde3039ff68efead269c41fb5f1a0e59b.nq.gz
+[2026-04-10T16:08:47Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-10T16:08:48Z] [iter=1] AST store loaded triples=3103 load_secs=0 mem_mb=88 MB
+[2026-04-10T16:08:48Z] [iter=1] Step 2: Finding LSP targets mem_mb=88 MB
+[2026-04-10T16:08:48Z] [iter=1] LSP targets found call_sites=44 imports=0 extends=0 implements=0 secs=0
+[2026-04-10T16:08:48Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=89 MB
+[2026-04-10T16:08:48Z] [iter=1] Position index built positions=207 nodes_with_types=255 secs=0 mem_mb=89 MB
+[2026-04-10T16:08:48Z] [iter=1] Step 3: Starting LSP resolution mem_mb=89 MB already_completed_types=[] already_completed_files=0
+[2026-04-10T16:08:48Z] [iter=1] Resolving target type target_type=call_site count=44
+[2026-04-10T16:08:49Z] [iter=1] Target type resolved target_type=call_site resolved=3 errors=3 secs=2 mem_mb=89 MB
+[2026-04-10T16:08:51Z] [iter=1] Step 5: Writing final enrichment file triples=203
+[2026-04-10T16:08:51Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/80f8533cde3039ff68efead269c41fb5f1a0e59b.nq.gz size_kb=2
+[2026-04-10T16:08:51Z] [iter=1] PHASE END: enrich elapsed_s=6 elapsed_min=0.1 total_triples=203
