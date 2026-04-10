@@ -1,0 +1,30 @@
+{
+  "manifest_version": "1.0",
+  "org": "jaredhanson",
+  "repo": "utils-merge",
+  "versions": [
+    {
+      "commit": "80f8533cde3039ff68efead269c41fb5f1a0e59b",
+      "parsed_at": "2026-04-10T15:54:32.516729+00:00",
+      "tag": "v1.0.0",
+      "filetree": "filetree/80f8533cde3039ff68efead269c41fb5f1a0e59b.nq.gz",
+      "blobs": [
+        "blob/ba9e473bc282400379c17b839ba23a9f0f7dc2c6.nq.gz",
+        "blob/2b8b14ce0958af216c006f4795f1d209d8d1dbc6.nq.gz",
+        "blob/d95c77f652067936c76dd23b579e601479627795.nq.gz",
+        "blob/a02940d41fd1e6e005dc6f981cd6a1cdc4dea0ba.nq.gz",
+        "blob/2bdd88563935d25a84895ccfda1b8de503d04518.nq.gz",
+        "blob/e33bd10bb4a3570f3c118561559a210c07ce6fa7.nq.gz",
+        "blob/4265c694fec6f4eb174612ee434c3ab7da8e40fa.nq.gz",
+        "blob/af92b021bee9937fd8c64d36258d1671873cc472.nq.gz",
+        "blob/c99b18e56a351ccf170847462b48d4f70e846add.nq.gz",
+        "blob/2f94e9bd2ea5756e98e8927f9bbca8717c8d5472.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
